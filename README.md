@@ -33,3 +33,15 @@ The project followed a structured data science workflow:
     * A **Random Forest Classifier** was chosen for its robustness and ability to provide clear feature importance scores.
     * The model was trained on the preprocessed data to predict the `adopted_user` status.
     * The model's performance was evaluated, and feature importances were extracted to identify the key predictive factors.
+
+## Data
+
+The two data files (`takehome_users.csv` and `takehome_user_engagement.csv`)
+and the challenge brief were supplied for this take-home exercise and are not
+redistributed here. The notebook's saved outputs show every result. To re-run
+it, place both files in `data/`.
+
+## License
+
+The code is released under the [MIT License](LICENSE). It does not cover the
+challenge brief or the data, which are not included.
